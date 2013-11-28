@@ -9,7 +9,9 @@ Bundler.require(:default, Rails.env)
 module Socialap32
   class Application < Rails::Application
 
-    config.generators do |g|
+    config.generators do |g| 
+        g.stylesheets false
+        g.javascripts false
       
       
     end
